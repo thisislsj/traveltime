@@ -45,3 +45,28 @@ List<Activity> activities = [
   ),
 
 ];
+
+List<Destination> destinations = [
+  Destination(
+    imageUrl: 'assets/images/ellarock.jpg',
+    city: 'Ella',
+    country: 'Sri Lanka',
+    description: 'Ella is one of the best tourist attaction towns in Sri Lanka',
+    activities: activities,
+  ),
+  Destination(
+    imageUrl: 'assets/images/ellarock.jpg',
+    city: 'Galle',
+    country: 'Sri Lanka',
+    description: 'Ella is one of the best tourist attaction towns in Sri Lanka',
+    activities: activities,
+  ),
+  Destination(
+    imageUrl: 'assets/images/ellarock.jpg',
+    city: 'Kandy',
+    country: 'Sri Lanka',
+    description: 'Ella is one of the best tourist attaction towns in Sri Lanka',
+    activities: activities,
+  ),
+  
+];
