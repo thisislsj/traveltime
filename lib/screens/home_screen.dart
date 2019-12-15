@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:traveltime/widgets/destination_carousal.dart';
+import 'package:traveltime/widgets/curated_trips.dart';
 
 class HomeScreen extends StatefulWidget{
   @override  
@@ -27,7 +28,9 @@ class _HomeScreenState extends State<HomeScreen>{
             ),
             
             SizedBox(height: 20.0),
-            DestinationCarousal(),
+            DestinationCarousal(), //run destination carousal
+            SizedBox(height: 20.0),
+            CuratedTripsCarousal(), //run curated trips carousal
             
           ],
         ),
