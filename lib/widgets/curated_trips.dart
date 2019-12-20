@@ -86,7 +86,7 @@ class CuratedTripsCarousal extends StatelessWidget{
                               ),
                             ),
                             Positioned(
-                              left: 10.0,
+                              left: 30.0,
                               bottom: 20.0,
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,

@@ -44,10 +44,10 @@ class DestinationCarousal extends StatelessWidget{
             itemBuilder: (BuildContext context,int index){
               Destination destination=destinations[index];
               return GestureDetector(
-                onTap: ()=> Navigator.push(
+                onTap: () => Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder:(_)=> DestinationScreen( 
+                    builder:(_) => DestinationScreen( 
                       destination:destination,
                       ) ,
                   ),

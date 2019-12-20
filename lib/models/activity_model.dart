@@ -2,7 +2,7 @@ class Activity {
   String imageUrl;
   String name;
   String type;
-  double avgTime;
+  String avgTime;
   int rating;
   int cost;
 
